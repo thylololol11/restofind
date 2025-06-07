@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>restofind</title>
+</head>
+<body>
+  <script src="main.dart.js" type="application/javascript"></script>
+  <script>
+    // Solución temporal para CORS en desarrollo
+    if (window.flutterWebRenderer === 'html') {
+      let oldFetch = window.fetch;
+      window.fetch = async function(resource, options) {
+        if (resource.includes('maps.googleapis.com')) {
+          resource = 'https://cors-anywhere.herokuapp.com/' + resource;
+        }
+        return oldFetch(resource, options);
+      };
+    }
+  </script>
+</body>
+</html>

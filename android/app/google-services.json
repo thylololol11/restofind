@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "534758324230",
+    "project_id": "restofind-8eb68",
+    "storage_bucket": "restofind-8eb68.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534758324230:android:94a7ac508b2339433feb87",
+        "android_client_info": {
+          "package_name": "com.example.restofind"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeeTNCEmDudF_JrX9I2xve74GN2eBfuxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
