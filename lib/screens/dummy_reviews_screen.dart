@@ -37,7 +37,11 @@ class DummyReviewsScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
+<<<<<<< HEAD
         title: Text('Reseñas de $restaurantName'),
+=======
+        title: Text('Reseñas de ${restaurantName}'),
+>>>>>>> 1e1c2ed08f3679757059ad2f55a59d6d810a8e6a
         backgroundColor: Theme.of(context).primaryColor,
       ),
       body: dummyReviews.isEmpty
@@ -83,4 +87,8 @@ class DummyReviewsScreen extends StatelessWidget {
             ),
     );
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 1e1c2ed08f3679757059ad2f55a59d6d810a8e6a
