@@ -42,7 +42,7 @@ dependencies:
   image_picker: ^1.1.2 
   firebase_storage: ^12.4.6
   url_launcher: ^6.2.2
-  google_maps_flutter: ^4.0.0 
+
   
 dev_dependencies: # <--- Asegúrate de que esta línea exista y esté al mismo nivel que 'dependencies:'
   flutter_test:
