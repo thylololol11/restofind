@@ -93,7 +93,7 @@ class _RestaurantDetailScreenState extends State<RestaurantDetailScreen> {
                         ),
                         const SizedBox(width: 8),
                         Text(
-                          '${widget.restaurant.rating?.toStringAsFixed(1) ?? 'N/A'}',
+                          widget.restaurant.rating?.toStringAsFixed(1) ?? 'N/A',
                           style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                         ),
                       ],
@@ -117,9 +117,9 @@ class _RestaurantDetailScreenState extends State<RestaurantDetailScreen> {
                   ),
  
                   const Divider(height: 30, thickness: 1), 
-                  Text(
+                  const Text(
                     'Reseñas de Usuarios',
-                    style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
                   ),
                   const SizedBox(height: 10),
                   ElevatedButton.icon(

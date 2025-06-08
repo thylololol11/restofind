@@ -166,7 +166,7 @@ class _RestaurantListScreenState extends State<RestaurantListScreen> {
                       const SizedBox(height: 4),
                       Row(
                         children: [
-                          Icon(Icons.star, color: Colors.amber, size: 18),
+                          const Icon(Icons.star, color: Colors.amber, size: 18),
                           const SizedBox(width: 4),
                           Text(
                             '${restaurant.rating}',

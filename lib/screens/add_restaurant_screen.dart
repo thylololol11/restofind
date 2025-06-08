@@ -24,8 +24,8 @@ class _AddRestaurantScreenState extends State<AddRestaurantScreen> {
   final TextEditingController _menuUrlController = TextEditingController(); 
   final ImagePicker _picker = ImagePicker();
 
-  List<XFile> _imageFiles = [];
-  List<Uint8List> _imageBytesList = [];
+  final List<XFile> _imageFiles = [];
+  final List<Uint8List> _imageBytesList = [];
   bool _isUploading = false;
 
   Future<void> _pickImage(ImageSource source) async {

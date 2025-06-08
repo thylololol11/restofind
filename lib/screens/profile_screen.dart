@@ -147,7 +147,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                       const SizedBox(height: 5),
                                       Row(
                                         children: [
-                                          Icon(Icons.star, color: Colors.amber, size: 20),
+                                          const Icon(Icons.star, color: Colors.amber, size: 20),
                                           const SizedBox(width: 4),
                                           Text('${review.rating}', style: const TextStyle(fontSize: 16)),
                                         ],

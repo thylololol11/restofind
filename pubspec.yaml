@@ -32,20 +32,22 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8 # O la versión que tengas, pero solo una
-  firebase_core: ^2.27.0
-  firebase_auth: ^4.17.8
+  firebase_core: ^3.13.1
+  firebase_auth: ^5.5.4
   provider: ^6.1.2
   http: ^1.2.0
   shared_preferences: ^2.2.3
-  cloud_firestore: ^4.15.8 # <--- ¡AÑADE ESTA LÍNEA!
+  cloud_firestore: ^5.6.8 # <--- ¡AÑADE ESTA LÍNEA!
   flutter_rating_bar: ^4.0.1
   image_picker: ^1.1.2 
-  firebase_storage: ^11.7.2
+  firebase_storage: ^12.4.6
   url_launcher: ^6.2.2
+  google_maps_flutter: ^4.0.0 
+  
 dev_dependencies: # <--- Asegúrate de que esta línea exista y esté al mismo nivel que 'dependencies:'
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^6.0.0
   flutterfire_cli: ^1.2.0 #
   # pubspec.yaml
 
